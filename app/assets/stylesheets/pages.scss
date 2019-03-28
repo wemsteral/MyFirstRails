@@ -4,38 +4,40 @@
 html, body {
   margin: 0;
   padding: 0;
+
 }
 
-html {
-  background: url(https://cdn-images-1.medium.com/max/2560/1*Ar1k9HjU8Rhq1tqA6GEcdg.jpeg) no-repeat center center fixed; 
+
+
+.container {
+  margin: 0 auto;
+  color: black;
+}
+
+.jumbotron {
+  height: 700px;
+  background: url(https://images.unsplash.com/photo-1530595873198-97abaf511eef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.container {
-  margin: 0 auto;
-}
-
-.jumbotron {
-  height: 800px;
-}
-
-.header {
-  background-color: #333;
-}
 
 .nav {
   margin: 0;
   padding: 20px 0;
+  position: fixed;
+  left: 5px;
 }
 
 .nav li {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
+  display: inline;
+  text-transform: uppercase;
 }
 
 .main {
@@ -45,8 +47,8 @@ html {
 }
 
 .main h1 {
-  color: #333;
-  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 600;
   font-size: 70px;
   margin-top: 0;
@@ -55,9 +57,9 @@ html {
 }
 
 .btn-default {
-  border: 1px solid #333;
-  color: #333;
-  font-family: 'Raleway', sans-serif;
+  border: 1px solid black;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 600;
   font-size: 10px;
   letter-spacing: 1.3px;
@@ -76,8 +78,9 @@ html {
 .supporting .col {
   float: left;
   width: 33%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   text-align: center;
+
 }
 
 .supporting img {
@@ -96,6 +99,7 @@ html {
   line-height: 20px;
   padding: 0 50px;
   margin-bottom: 40px;
+
 }
 
 .clearfix {
@@ -103,13 +107,11 @@ html {
 }
 
 .footer {
-  background-color: #333;
-  color: #fff;
-  padding: 30px 0;
+  color: white;
 }
 
 .footer p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
 }
